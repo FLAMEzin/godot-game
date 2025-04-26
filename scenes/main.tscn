@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://bb7opbukwbdbs"]
+[gd_scene load_steps=6 format=3 uid="uid://bb7opbukwbdbs"]
 
 [ext_resource type="PackedScene" uid="uid://qdoqnrkr85ho" path="res://scenes/building/wall.tscn" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://br484lqdg6dow" path="res://scenes/player.tscn" id="2_0wfyh"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0wfyh"]
 sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
@@ -30,6 +31,7 @@ shadow_enabled = true
 
 [node name="CSGBox3D" type="CSGBox3D" parent="NavigationRegion3D/Map"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.25, 0)
+use_collision = true
 size = Vector3(26, 0.5, 25.1)
 
 [node name="wall" parent="NavigationRegion3D/Map" instance=ExtResource("1_o5qli")]
@@ -51,3 +53,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -0.3)
 transform = Transform3D(0.766044, 0.413176, -0.492404, 5.74697e-08, 0.766045, 0.642788, 0.642788, -0.492404, 0.586824, -10.5, 12.5, 12.6)
 projection = 1
 size = 9.571
+
+[node name="Node3D" parent="." instance=ExtResource("2_0wfyh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.4)
