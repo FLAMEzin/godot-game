@@ -1,0 +1,80 @@
+[gd_scene load_steps=20 format=3 uid="uid://2doh7ib0imtv"]
+
+[ext_resource type="PackedScene" uid="uid://ldxeiveirbld" path="res://assets/GLB Market/bottle-return.glb" id="1_38em7"]
+[ext_resource type="PackedScene" uid="uid://ca7rbrtrgc8x7" path="res://assets/GLB Market/cash-register.glb" id="2_arklt"]
+[ext_resource type="PackedScene" uid="uid://coyylpl0m7sfv" path="res://assets/GLB Market/character-employee.glb" id="3_8bucn"]
+[ext_resource type="PackedScene" uid="uid://du8nphl7ayqk2" path="res://assets/GLB Market/column.glb" id="4_opji3"]
+[ext_resource type="PackedScene" uid="uid://05ksglqyu5pd" path="res://assets/GLB Market/display-bread.glb" id="5_bsbk6"]
+[ext_resource type="PackedScene" uid="uid://c5ana8ar22k3b" path="res://assets/GLB Market/display-fruit.glb" id="6_rk0pp"]
+[ext_resource type="PackedScene" uid="uid://bf0lqw7w3cmyn" path="res://assets/GLB Market/fence-door-rotate.glb" id="7_7yd8q"]
+[ext_resource type="PackedScene" uid="uid://buidrtfnwapni" path="res://assets/GLB Market/fence.glb" id="8_35w2x"]
+[ext_resource type="PackedScene" uid="uid://bve83tq8akkvu" path="res://assets/GLB Market/floor.glb" id="9_m7732"]
+[ext_resource type="PackedScene" uid="uid://d1bgtqtqb66ib" path="res://assets/GLB Market/freezer.glb" id="10_51yd1"]
+[ext_resource type="PackedScene" uid="uid://cjykwifupo5gj" path="res://assets/GLB Market/freezers-standing.glb" id="11_2v7rg"]
+[ext_resource type="PackedScene" uid="uid://qs0rpou14iyo" path="res://assets/GLB Market/shelf-bags.glb" id="12_ardpa"]
+[ext_resource type="PackedScene" uid="uid://bgsouobajd7qq" path="res://assets/GLB Market/shelf-boxes.glb" id="13_2rrxv"]
+[ext_resource type="PackedScene" uid="uid://dyt0mck6rue3r" path="res://assets/GLB Market/shelf-end.glb" id="14_13mp4"]
+[ext_resource type="PackedScene" uid="uid://w83kiv3kayr8" path="res://assets/GLB Market/shopping-basket.glb" id="15_1llx8"]
+[ext_resource type="PackedScene" uid="uid://drkmd82bvyuxv" path="res://assets/GLB Market/wall-corner.glb" id="16_8i7wx"]
+[ext_resource type="PackedScene" uid="uid://bsayp0b70eus" path="res://assets/GLB Market/wall-door-rotate.glb" id="17_0c8ms"]
+[ext_resource type="PackedScene" uid="uid://b3qaimvvg0ryi" path="res://assets/GLB Market/wall-window.glb" id="18_pkbjh"]
+[ext_resource type="PackedScene" uid="uid://bkqah8t12gos7" path="res://assets/GLB Market/wall.glb" id="19_crr7q"]
+
+[node name="BuildingScenes" type="Node3D"]
+
+[node name="bottle-return2" parent="." instance=ExtResource("1_38em7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.28035, 0, -0.113821)
+
+[node name="cash-register2" parent="." instance=ExtResource("2_arklt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.4965, 0, -0.113821)
+
+[node name="character-employee2" parent="." instance=ExtResource("3_8bucn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.94739, 0, -0.113821)
+
+[node name="column2" parent="." instance=ExtResource("4_opji3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.28266, 0, -0.113821)
+
+[node name="display-bread2" parent="." instance=ExtResource("5_bsbk6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.25709, 0, -0.113821)
+
+[node name="display-fruit2" parent="." instance=ExtResource("6_rk0pp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.42853, 0, -0.113821)
+
+[node name="fence-door-rotate2" parent="." instance=ExtResource("7_7yd8q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.03313, 0, -0.113821)
+
+[node name="fence2" parent="." instance=ExtResource("8_35w2x")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.49919, 0, -0.113821)
+
+[node name="floor2" parent="." instance=ExtResource("9_m7732")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.52499, 0, -0.113821)
+
+[node name="freezer2" parent="." instance=ExtResource("10_51yd1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.53808, 0, -0.113821)
+
+[node name="freezers-standing2" parent="." instance=ExtResource("11_2v7rg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.1607, 0, -0.113821)
+
+[node name="shelf-bags2" parent="." instance=ExtResource("12_ardpa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.3321, 0, -0.113821)
+
+[node name="shelf-boxes2" parent="." instance=ExtResource("13_2rrxv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.2209, 0, -0.113821)
+
+[node name="shelf-end2" parent="." instance=ExtResource("14_13mp4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.4992, 0, -0.113821)
+
+[node name="shopping-basket2" parent="." instance=ExtResource("15_1llx8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.3639, 0, -0.113821)
+
+[node name="wall-corner2" parent="." instance=ExtResource("16_8i7wx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.42191, 0, -0.113821)
+
+[node name="wall-door-rotate2" parent="." instance=ExtResource("17_0c8ms")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.6458, 0, -0.113821)
+
+[node name="wall-window2" parent="." instance=ExtResource("18_pkbjh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.7414, 0, -0.113821)
+
+[node name="wall2" parent="." instance=ExtResource("19_crr7q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.101865, 0, -0.113821)
